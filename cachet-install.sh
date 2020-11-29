@@ -10,7 +10,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y vim git sudo nginx
 
 # Install PHP modules
-sudo apt install -y php7.0 php7.0-cli php7.0-fpm php7.0-common php7.0-xml php7.0-gd php7.0-zip php7.0-mbstring php7.0-mysql php7.0-pgsql php7.0-sqlite3 php7.0-mcrypt php-apcu
+sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mysql php7.2-gmp php7.2-curl php7.2-intl php7.2-mbstring php7.2-xmlrpc php7.2-gd php7.2-bcmath php7.2-imap php7.2-xml php7.2-cli php7.2-zip
 
 echo "Checking php version"
 

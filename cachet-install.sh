@@ -112,7 +112,7 @@ composer install --no-dev -o
 
 php artisan key:generate
 
-php artisan app:install
+php artisan cachet:install
 
 sudo chown -R www-data:www-data /var/www/cachet
 
